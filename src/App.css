@@ -6,6 +6,12 @@
   height: 40vmin;
   pointer-events: none;
 }
+.add-to-cart img{
+  width: 79px;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
