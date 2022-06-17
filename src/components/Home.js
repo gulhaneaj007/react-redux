@@ -16,6 +16,9 @@ function Home(props) {
           <Card.Text>Price : $1200.00</Card.Text>
           <Button variant="danger"
             onClick={() => {props.addTocartHandler({ price: 1000,name:"iphone 13" })}}>Add to cart</Button>
+
+          <Button variant="success"
+            onClick={() => {props.removeTocartHandler()}}>Remove to cart</Button>  
         </Card.Body>
       </Card>
     </>
